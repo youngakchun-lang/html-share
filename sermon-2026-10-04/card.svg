@@ -9,11 +9,12 @@
   <image href="photo.jpg" width="1080" height="1080" preserveAspectRatio="xMidYMid slice"/>
   <rect width="1080" height="1080" fill="url(#shade)"/>
   <rect width="1080" height="1080" fill="#0b1520" opacity="0.18"/>
-  <g fill="#ffffff" text-anchor="start" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
-    <text x="125" y="305" font-size="74" font-weight="700" letter-spacing="-3">오늘 내 영혼을</text>
-    <text x="125" y="400" font-size="74" font-weight="700" letter-spacing="-3">살게 하소서</text>
-    <line x1="125" y1="452" x2="245" y2="452" stroke="#ffffff" stroke-width="2" opacity="0.78"/>
-    <text x="125" y="507" font-size="25" font-weight="400" letter-spacing="1">시편 119:175</text>
+  <g fill="#ffffff" text-anchor="end" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+    <text x="510" y="270" font-size="68" font-weight="700" letter-spacing="-3">오늘</text>
+    <text x="510" y="350" font-size="68" font-weight="700" letter-spacing="-3">내 영혼을</text>
+    <text x="510" y="430" font-size="68" font-weight="700" letter-spacing="-3">살게 하소서</text>
+    <line x1="390" y1="482" x2="510" y2="482" stroke="#ffffff" stroke-width="2" opacity="0.78"/>
+    <text x="510" y="537" font-size="25" font-weight="400" letter-spacing="1">시편 119:175</text>
     <text x="540" y="1025" font-size="15" font-weight="400" opacity="0.72">Photo by Marek Piwnicki on Unsplash</text>
   </g>
 </svg>
