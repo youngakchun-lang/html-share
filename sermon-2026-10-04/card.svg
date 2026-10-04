@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1520" stop-opacity="0.52"/>
+      <stop offset="0.50" stop-color="#0b1520" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#0b1520" stop-opacity="0.47"/>
+    </linearGradient>
+  </defs>
+  <image href="photo.jpg" width="1080" height="1080" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1080" height="1080" fill="url(#shade)"/>
+  <rect width="1080" height="1080" fill="#0b1520" opacity="0.18"/>
+  <g fill="#ffffff" text-anchor="middle" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+    <text x="540" y="432" font-size="74" font-weight="700" letter-spacing="-3">오늘 내 영혼을</text>
+    <text x="540" y="527" font-size="74" font-weight="700" letter-spacing="-3">살게 하소서</text>
+    <line x1="480" y1="579" x2="600" y2="579" stroke="#ffffff" stroke-width="2" opacity="0.78"/>
+    <text x="540" y="634" font-size="25" font-weight="400" letter-spacing="1">시편 119:175</text>
+    <text x="540" y="1025" font-size="15" font-weight="400" opacity="0.72">Photo by Marek Piwnicki on Unsplash</text>
+  </g>
+</svg>
