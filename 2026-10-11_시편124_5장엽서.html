@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>시편 124편 · 다섯 장의 엽서</title>
+<style>
+  :root { --ink:#25342e; --paper:#f4f0e7; --line:#d7d0c3; --accent:#9b6b45; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#e7e1d7; color:var(--ink); font-family:"Noto Serif KR","Malgun Gothic",serif; }
+  .wrap { min-height:100vh; display:grid; place-items:center; padding:32px 16px 24px; }
+  .heading { width:min(1080px,100%); display:flex; align-items:end; justify-content:space-between; gap:18px; margin:0 0 14px; }
+  h1 { margin:0; font-size:17px; font-weight:500; letter-spacing:.04em; }
+  .hint { margin:0; font-family:"Malgun Gothic",sans-serif; font-size:12px; color:#5e6962; }
+  .stage { width:min(1080px,100%); position:relative; }
+  .card { display:none; width:100%; aspect-ratio:1/1; overflow:hidden; background:var(--paper); grid-template-columns:42% 58%; box-shadow:0 18px 46px #6c625338; }
+  .card.active { display:grid; }
+  .words { position:relative; display:flex; flex-direction:column; justify-content:space-between; padding:9.2% 9% 8%; background:var(--paper); z-index:1; }
+  .words::after { content:""; position:absolute; right:-1px; top:8%; bottom:8%; width:1px; background:var(--line); }
+  .number, .verse { font-family:"Malgun Gothic",sans-serif; font-size:clamp(11px,1.35vw,15px); letter-spacing:.1em; color:#7c857e; }
+  .copy { margin:auto 0; font-size:clamp(28px,4.2vw,52px); line-height:1.42; letter-spacing:-.07em; word-break:keep-all; text-wrap:pretty; }
+  .small { font-size:clamp(23px,3.4vw,42px); }
+  .verse { margin-top:18px; color:var(--accent); font-weight:600; }
+  .photo { background-image:var(--photo); background-position:center; background-size:cover; min-width:0; }
+  .nav { width:min(1080px,100%); margin-top:17px; display:flex; align-items:center; justify-content:space-between; gap:10px; font-family:"Malgun Gothic",sans-serif; }
+  button { appearance:none; border:1px solid #bdb5a8; background:#f8f6f0; color:#34423b; padding:10px 14px; cursor:pointer; font:inherit; font-size:13px; }
+  button:hover, button:focus-visible { background:#e9e2d6; outline:2px solid #73847a; outline-offset:2px; }
+  .dots { display:flex; gap:7px; }
+  .dot { width:9px; height:9px; padding:0; border-radius:50%; border:0; background:#b5ada0; }
+  .dot.current { background:var(--accent); }
+  .credit { width:min(1080px,100%); margin:11px 0 0; color:#72766e; font:11px/1.5 "Malgun Gothic",sans-serif; }
+  .credit a { color:inherit; }
+  @media (max-width:620px) { .wrap { padding:22px 0 18px; } .heading, .nav, .credit { width:calc(100% - 28px); } .card { grid-template-columns:43% 57%; } .words { padding:8% 8%; } .copy { font-size:clamp(22px,7vw,38px); } .small { font-size:clamp(18px,5.6vw,30px); } }
+  @media print { @page { size: 210mm 210mm; margin:0; } body { background:white; } .wrap { display:block; padding:0; } .heading, .nav, .credit { display:none; } .stage { width:100%; } .card { display:grid !important; width:210mm; height:210mm; aspect-ratio:auto; box-shadow:none; break-after:page; page-break-after:always; } }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="heading"><h1>시편 124편 · 다섯 장의 엽서</h1><p class="hint">← → 키 또는 아래 버튼으로 넘기세요</p></header>
+  <section class="stage" aria-label="시편 124편 엽서">
+    <article class="card active" style="--photo:url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=85')">
+      <div class="words"><div class="number">01 / 05</div><p class="copy">여호와께서<br>우리 편에 계시지<br>아니하셨더라면</p><div class="verse">시편 124:1</div></div><div class="photo" role="img" aria-label="고요한 산과 호수"></div>
+    </article>
+    <article class="card" style="--photo:url('https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1400&q=85')">
+      <div class="words"><div class="number">02 / 05</div><p class="copy small">지나온 모든 순간,<br>우리를 붙드신 분은<br>하나님이셨습니다</p><div class="verse">시편 124:1–2</div></div><div class="photo" role="img" aria-label="햇빛이 비치는 산길"></div>
+    </article>
+    <article class="card" style="--photo:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=85')">
+      <div class="words"><div class="number">03 / 05</div><p class="copy small">물이 휩쓸고<br>올무가 기다려도,<br>우리는 거기에<br>갇히지 않습니다</p><div class="verse">시편 124:4–5, 7</div></div><div class="photo" role="img" aria-label="넓은 자연 풍경"></div>
+    </article>
+    <article class="card" style="--photo:url('https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1400&q=85')">
+      <div class="words"><div class="number">04 / 05</div><p class="copy small">끊어진 올무에서<br>벗어난 새처럼,<br>주께서 우리를<br>자유케 하십니다</p><div class="verse">시편 124:7</div></div><div class="photo" role="img" aria-label="햇살 아래의 나무와 들판"></div>
+    </article>
+    <article class="card" style="--photo:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=85')">
+      <div class="words"><div class="number">05 / 05</div><p class="copy small">우리의 도움은<br>천지를 지으신<br>여호와께<br>있습니다</p><div class="verse">시편 124:8</div></div><div class="photo" role="img" aria-label="높은 산맥"></div>
+    </article>
+  </section>
+  <nav class="nav" aria-label="엽서 탐색"><button id="prev" type="button">이전</button><div class="dots" aria-label="엽서 선택"></div><button id="next" type="button">다음</button></nav>
+  <p class="credit">사진: <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a> · 글씨는 사진 위가 아닌 왼쪽 여백 영역에 배치했습니다. 인쇄 시 다섯 장으로 출력됩니다.</p>
+</main>
+<script>
+  const cards=[...document.querySelectorAll('.card')], dots=document.querySelector('.dots'); let current=0;
+  cards.forEach((_,i)=>{const b=document.createElement('button');b.className='dot';b.type='button';b.setAttribute('aria-label',`${i+1}번 엽서 보기`);b.addEventListener('click',()=>show(i));dots.append(b)});
+  function show(i){current=(i+cards.length)%cards.length;cards.forEach((card,n)=>card.classList.toggle('active',n===current));[...dots.children].forEach((dot,n)=>dot.classList.toggle('current',n===current));}
+  document.querySelector('#prev').addEventListener('click',()=>show(current-1)); document.querySelector('#next').addEventListener('click',()=>show(current+1));
+  document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(current-1);if(e.key==='ArrowRight')show(current+1)});show(0);
+</script>
+</body>
+</html>
